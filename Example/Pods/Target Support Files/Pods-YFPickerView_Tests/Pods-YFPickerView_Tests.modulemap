@@ -1,0 +1,6 @@
+framework module Pods_YFPickerView_Tests {
+  umbrella header "Pods-YFPickerView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

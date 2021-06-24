@@ -1,0 +1,6 @@
+framework module YFPickerView {
+  umbrella header "YFPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
