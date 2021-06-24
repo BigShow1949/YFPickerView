@@ -1,5 +1,5 @@
 PODS:
-  - YFPickerView (0.1.0)
+  - YFPickerView (0.0.1)
 
 DEPENDENCIES:
   - YFPickerView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YFPickerView: 29f26c04551d3ec3fddb4c8a91917377f3f044f7
+  YFPickerView: 6b6919e1ca65982b07d4e98136be586c2127dda8
 
 PODFILE CHECKSUM: 1f0010422d2e6ffcd94ca33b96018cb4e785bcc5
 
