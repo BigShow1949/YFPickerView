@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8262C2BFECAD0F597F58C18F /* Pods-YFPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPickerView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YFPickerView_Tests/Pods-YFPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A5B0234F1625B8827D6D903 /* YFPickerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YFPickerView.podspec; path = ../YFPickerView.podspec; sourceTree = "<group>"; };
-		C17D4DE1CBD04B2E549FA165 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A5B0234F1625B8827D6D903 /* YFPickerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YFPickerView.podspec; path = ../YFPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C17D4DE1CBD04B2E549FA165 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C37788781509D7B933954901 /* Pods_YFPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAFF73B7B3FFE4A3A0C81734 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CAFF73B7B3FFE4A3A0C81734 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7B9717AD0ABE7E599567F0B /* Pods-YFPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPickerView_Example.release.xcconfig"; path = "Target Support Files/Pods-YFPickerView_Example/Pods-YFPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				8262C2BFECAD0F597F58C18F /* Pods-YFPickerView_Tests.debug.xcconfig */,
 				6E4C2E44E858E20BF7CD5718 /* Pods-YFPickerView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
